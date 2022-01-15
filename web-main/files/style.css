@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    html, body {
+        height: 100%;
+        width: 100%;
+        color: #002460;
+        font-family:  'Roboto, Oxygen, Ubuntu, Cantarell' ;
+    }
+    .Landing {
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap ;
+    justify-content: stretch;
+    align-items: stretch;
+}
+    .Landing_section {
+
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+    background-color: #002460 ;
+    color: #ffffff;
+    }
+
+    .Landing_section_Landing_section_blue {
+
+    }
+
+    .section {
+        padding: 72px 0;
+        width: 760px;
+    }
+
+    .selection_title {
+        font-size: 32px;
+        font-weight: 700px;
+    }
+
