@@ -23,8 +23,17 @@ html, body {
     border-radius: 30px;
     display: flex;
     background-color: rgb(222, 168, 78);
+    box-shadow: 0 0 50px rgb(197, 150, 73),
+     0 0 55px rgb(197, 150, 73),
+     0 0 60px rgb(197, 150, 73);
+     flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-end;
+    align-items: center;
 }
 .text1 {
+    display: flex;
     
     width: 2300px;
     height: 200px;
@@ -37,4 +46,51 @@ html, body {
     line-height: 190px;
     margin-left: 250px;
 }
-.
+.home {
+    display: flex;
+    color: rgb(22, 21, 19);
+    font-size: 32px;
+    font-weight: 100px;
+    line-height: 190px;
+    margin-left: 1000px;
+
+}
+.about {
+    display: flex;
+    color: rgb(22, 21, 19);
+    font-size: 32px;
+    font-weight: 100px;
+    line-height: 190px;
+    margin-left: 150px;
+
+}
+.contact {
+    display: flex;
+    color: rgb(22, 21, 19);
+    font-size: 32px;
+    font-weight: 100px;
+    line-height: 190px;
+    margin-left: 150px;
+
+}
+.text {
+    width: 1500px;
+    height: 900px;
+    
+}
+.error {
+    display: flex;
+    color: rgb(22, 21, 19);
+    font-size: 32px;
+    font-weight: 70px;
+    line-height: 190px;
+}
+.buddy {
+    display: flex;
+    color: rgb(22, 21, 19);
+    font-size: 70px;
+    font-weight: 70px;
+    line-height: 120px;
+
+
+}
